@@ -9,6 +9,15 @@ public class QuickSort {
             quickSort(A,pi+1,r);
         }
     }
+    public  int getFirstPivot(int l , int r){
+        return l;
+    }
+    public  int getLastPivot(int l , int r){
+        return r;
+    }
+    public  int getMedianPivot(int l , int r){
+        return r;
+    }
 
     public int partition(int[]A,int l,int r){
         int pi = A[l];
